@@ -1,0 +1,243 @@
+body{
+    background-color: #f2f2f2;
+}
+.logo{
+    height:29px;
+     width:120px;
+ }
+.my-own-nav-link{
+    margin: 	0 20px;
+    font-size: 11px !important;
+    letter-spacing: 1px!important;
+    line-height: 11px !important;
+}
+.my-own-nav-link:hover{
+    background:  #f3b007 !important;    
+}
+.background{
+    background:url("images/hd-4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 670px;
+}
+.h-t{
+    font-size: 30px;
+    font-weight: bold;
+}
+.h-p{
+    font-size: 15px;
+}
+.header{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.butt, .butt:hover{
+    color: #f3b007;
+    text-transform: capitalize;
+}
+.but{
+    background:  #f3b007 !important;
+}
+.but:hover{
+    background:transparent !important;
+}
+.search:hover{
+    color: #f3b007 !important;
+}
+
+/* Three-cards section styling starts here */
+
+.cards-three {
+    position: relative;
+    bottom: 100px;
+}
+.drill{
+    height: 50px;
+ }
+ .b-right{
+    border-right: 1px solid grey;
+}
+.ss-p{
+    font-size: 13px !important;
+}
+.ss-h2{
+    font-size: 20px !important;
+}
+
+#engineering {
+    margin-top: -50px;
+}
+
+/* third section starts here */
+
+.goals{
+    height: 132px;
+    width: 218px;
+}
+.br{
+    height: 50px;
+}
+.goals1{
+    height: 312px;
+    width: 240px;
+}
+
+/* fourth section starts here */
+
+.background1{
+    background: url("images/image-5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 340px;
+    width: 510px; 
+}
+.s-box{
+    background-color: #fff;
+    height: 200px;
+    width: 378px;
+    color: #000;
+    position: relative;
+     top:120px;
+    left: 120px;
+    padding: 40px;
+    cursor: pointer;
+}
+.p-box{
+    margin-top: -30px;
+    font-size: 14px;
+}
+.fourth-btn{
+    float: right;
+    margin-top:-25px;
+}
+
+/* fifth section starts here */
+
+.background2{
+    background: url("images/hd-5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.fs-img{
+    height: 50px;
+    width: 50px;
+}
+.fs-h2{
+    color:  #F3B007;
+}
+.btnn{
+    background-color:orange;
+    color: #fff;
+    border-radius: 2%;
+    
+    height: 60px;
+    width: 200px;
+}
+
+/* sixth section starts here */
+.card{
+    width: 300px;
+}
+.si-p{
+    line-height: 26px;
+    font-size: 13px;
+}
+.s-h2{
+    font-size: 18px;
+}
+
+/* seventh section starts here */
+
+.sv-ul{
+    list-style-type: none;
+    padding: 20px;
+}
+.sv-ul li{
+    padding: 25px;
+}
+ .sv-ul-li{
+    border: 1px solid grey;
+}
+
+/* ninth section starts here */
+
+.background3{
+    background: url("images/hd-13.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.card2{
+    margin: 20px;
+    height: 300px;
+    background: white;
+    box-shadow: 1px 1px 1px 1px;    
+}
+
+/* second carousel thingy starts here */
+
+.lst-img{
+    height: 50px;
+    width: 50px !important;
+}
+
+/* footer starts here */
+
+.card-last{
+    background: white;
+}
+
+@media only screen and (max-width:400px){
+    body{
+        background-color: #f2f2f2;
+    }    
+    .video {
+        margin-top: -150px;
+    }
+    .background {
+        height: 100vh;
+    }
+    
+.cards-three {
+    position: relative;
+    bottom: 0px;
+    top: 30px;
+}
+
+#three-cards {
+    padding-bottom: 20px;
+}
+
+/* #engineering {
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+} */
+.drill{
+    height: 20px;
+ }
+ .b-right{
+    border-right: 1px solid grey;
+}
+.ss-p{
+    font-size: 13px !important;
+}
+.ss-h2{
+    font-size: 17px !important;
+}
+
+.goals1{
+    height: 312px;
+    width: 240px;
+    margin-top: 50px;
+}
+.card{
+    margin-top: 20px;
+}
+.es-img{
+    margin-top: 30px;
+}
